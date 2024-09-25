@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
 export default App;
 ```
 
-## Android build apk
+## build android apk
 1. 使用keytool生成私鑰，下完command後會填寫一些資料，填寫完後私鑰就會產生在當前路徑
 ```bat
 keytool -genkey -v -keystore ${名稱}.keystore -alias ${別名} -keyalg RSA -keysize 2048 -validity 10000
